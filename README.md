@@ -26,7 +26,7 @@
 
 ## 4.执行打包命令
 
-  64位：npm run win
-  32位：npm run win32
-  mac： npm run mac
+ > * 64位：npm run win
+ > * 32位：npm run win32
+ > * mac： npm run mac
 
