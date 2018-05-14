@@ -1,0 +1,16 @@
+{
+  "name": "electronSPAScaffold",
+  "version": "1.0.0",
+  "description": "building pc app scaffolding with electron",
+  "main": "js/index.js",
+  "scripts": {
+    "win":"rm -rf ./package && electron-packager . electron-spa-scaffold --icon=icons/icon --out=package/win --version=0.0.1 --platform=win32 --arch=x64 --electron-version=1.7.5 --overwrite --ignore=node_modules --ignore=.gitignore --download.mirror=https://npm.taobao.org/mirrors/electron/",
+    "win32":"rm -rf ./package && electron-packager . electron-spa-scaffold  --icon=icons/icon --out=package/win --version=0.0.1 --platform=win32 --arch=ia32 --electron-version=1.7.5 --overwrite --ignore=node_modules --ignore=.gitignore --download.mirror=https://npm.taobao.org/mirrors/electron/",
+    "mac":"rm -rf ./package && electron-packager . electron-spa-scaffold  --icon=icons/icon --out=package/mac --version=0.0.1 --platform=darwin --arch=x64 --electron-version=1.7.5 --overwrite --ignore=node_modules --ignore=.gitignore --download.mirror=https://npm.taobao.org/mirrors/electron/"
+  },
+  "build":{
+    "appId":"electron-spa-scaffold",
+    "copyright":"jhoneLee",
+    "productName":"electron脚手架"
+  }
+}
