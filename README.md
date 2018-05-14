@@ -21,8 +21,8 @@
 
   根目录下config.js
 
-  __PRO__  是否为生产环境
-  __ELECTRON__  是否为electron环境
+ > *  __PRO__  是否为生产环境
+ > *  __ELECTRON__  是否为electron环境
 
 ## 4.执行打包命令
 
